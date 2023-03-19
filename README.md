@@ -1,5 +1,41 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Folder Structure
+
+```
+📦my-app
+ ┣ 📂pages
+ ┃ ┣ 📂api
+ ┃ ┃ ┗ 📜hello.js
+ ┃ ┣ 📂cars
+ ┃ ┃ ┣ 📜[id].js
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📜_app.js
+ ┃ ┣ 📜_document.js
+ ┃ ┣ 📜hello.js
+ ┃ ┗ 📜index.js
+ ┣ 📂public
+ ┃ ┣ 📂locals
+ ┃ ┃ ┣ 📜cars.json
+ ┃ ┃ ┣ 📜ford.json
+ ┃ ┃ ┣ 📜lambo.json
+ ┃ ┃ ┗ 📜tesla.json
+ ┃ ┣ 📜favicon.ico
+ ┃ ┣ 📜next.svg
+ ┃ ┣ 📜thirteen.svg
+ ┃ ┗ 📜vercel.svg
+ ┣ 📂styles
+ ┃ ┣ 📜Home.module.css
+ ┃ ┗ 📜globals.css
+ ┣ 📜.eslintrc.json
+ ┣ 📜.gitignore
+ ┣ 📜README.md
+ ┣ 📜jsconfig.json
+ ┣ 📜next.config.js
+ ┣ 📜package-lock.json
+ ┗ 📜package.json
+```
+
 ## Getting Started
 
 First, run the development server:
