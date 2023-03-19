@@ -4,7 +4,7 @@ import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 
 export async function getServerSideProps({ params }) {
-  const url = `http://localhost:3000/locals/${params.id}.json`;
+  const url = `http://localhost:3001/locals/${params.id}.json`;
   const res = await fetch(url);
   const data = await res.json();
   return {

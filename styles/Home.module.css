@@ -22,6 +22,23 @@
   text-decoration: none;
 }
 
+.links {
+  display: flex;
+  padding: 10px;
+}
+
+.links li {
+  color: #0070f3;
+  margin: 0 0.5rem;
+  font-size: 25px;
+}
+
+.links li:hover,
+.links li:focus,
+.links li:active {
+  text-decoration: underline;
+}
+
 .title a:hover,
 .title a:focus,
 .title a:active {

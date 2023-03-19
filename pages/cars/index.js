@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
+
 import styles from "../../styles/Home.module.css";
 
 export default function CarsList() {
@@ -11,7 +12,7 @@ export default function CarsList() {
       <main className={styles.main}>
         <h1 className={styles.title}>Cars list</h1>
 
-        <ul>
+        <ul className={styles.links}>
           <li>
             <Link href="/cars/tesla">Tesla</Link>
           </li>
