@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Image from "next/Image";
 
 import styles from "../../styles/Home.module.css";
 
@@ -45,7 +46,12 @@ export default function Car({ car }) {
             return (
               <div key={index}>
                 <p>{cars.id}</p>
-                <img src={cars.image} width="300px" alt="car img" />
+                <Image
+                  src={cars.image}
+                  alt="Picture of the author"
+                  width={300}
+                  height={200}
+                />
               </div>
             );
           })}
