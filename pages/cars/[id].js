@@ -3,8 +3,9 @@ import Head from "next/head";
 
 import styles from "../../styles/Home.module.css";
 
+// This is with getStaticProps
 export async function getServerSideProps({ params }) {
-  const url = `http://localhost:3001/locals/${params.id}.json`;
+  const url = `https://nextjs-basics-demo.vercel.app/locals/${params.id}.json`;
   const res = await fetch(url);
   const data = await res.json();
   return {
