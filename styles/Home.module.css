@@ -7,6 +7,14 @@
   align-items: center;
 }
 
+.header_container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -33,15 +41,11 @@
   font-size: 25px;
 }
 
-.links li:hover,
-.links li:focus,
-.links li:active {
+.links li:hover {
   text-decoration: underline;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.title a:hover {
   text-decoration: underline;
 }
 
