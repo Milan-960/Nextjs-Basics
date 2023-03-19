@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header>
       <div className={styles.header_container}>
@@ -16,3 +16,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;
